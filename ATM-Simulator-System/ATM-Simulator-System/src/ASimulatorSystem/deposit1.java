@@ -120,7 +120,7 @@ public class deposit1 extends JFrame implements ActionListener{
                     
                    
                     
-                    String q1= "insert into bank values('"+b+"','"+a+"',null,'"+a+"')";
+                    String q1= "update bank set balance='"+balance+"' where pin='"+pin+"'";
                     c1.s.executeUpdate(q1);
                     
                    
