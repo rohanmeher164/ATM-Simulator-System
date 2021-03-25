@@ -128,7 +128,7 @@ public class Deposit extends JFrame implements ActionListener{
                         
                         double d = Double.parseDouble(a);
                         balance+=d;
-                        String q1= "insert into bank values('"+pin+"','"+d+"',null,'"+balance+"')";
+                        String q1= "update bank set balance='"+balance+"' where pin='"+pin+"'";
                     
                         c1.s.executeUpdate(q1);
                     }
