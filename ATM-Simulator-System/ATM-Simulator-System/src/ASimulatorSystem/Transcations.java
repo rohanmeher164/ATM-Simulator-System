@@ -45,10 +45,10 @@ public class Transcations extends JFrame implements ActionListener{
         b3.setBackground(Color.BLACK);
         b3.setForeground(Color.WHITE);
         
-        b4 = new JButton("MINI STATEMENT");
-        b4.setFont(new Font("System", Font.BOLD, 18));
-        b4.setBackground(Color.BLACK);
-        b4.setForeground(Color.WHITE);
+//         b4 = new JButton("MINI STATEMENT");
+//         b4.setFont(new Font("System", Font.BOLD, 18));
+//         b4.setBackground(Color.BLACK);
+//         b4.setForeground(Color.WHITE);
         
         b5 = new JButton("PIN CHANGE");
         b5.setFont(new Font("System", Font.BOLD, 18));
